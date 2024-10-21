@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row-reverse; 
+    gap: 10px; 
+  }
+
+  .button {
+    display: flex;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #green {
+    background-color: green;
+  }
+  #red {
+    background-color: red;
+  }
+  #yellow {
+    background-color: yellow;
+  }
+  #blue {
+    background-color: blue;
+  }
