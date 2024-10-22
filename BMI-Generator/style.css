@@ -1,0 +1,29 @@
+Body{
+    display: flex;
+    height: 100vh;
+    background-color:rgba(8, 7, 7, 0.184);
+}
+
+.container{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color:rgb(216, 210, 210);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    padding: 20px;
+}#result{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.button{
+    width: 135px;
+    height: 30px;
+    margin-left: 110px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
